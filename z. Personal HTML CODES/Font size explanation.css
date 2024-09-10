@@ -1,0 +1,22 @@
+#px{
+    font-size: 20px;
+}
+#pt{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20pt;
+}
+#em{
+    font-size: 2em;
+}
+#rem{
+    font-size: 2rem;
+}       
+.footer{
+    font-size: 1pt;
+}
+.body{
+    font-size: 1px;
+}
+html{
+    font-size: xx-large;
+}

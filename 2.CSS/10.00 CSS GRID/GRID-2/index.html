@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Template Areas</title>
+</head>
+<style>
+    .container{
+        display:grid;
+        border: 2px solid blueviolet;
+        grid-template-areas: "nav nav nav nav"
+                                        "side  article article article"
+                                        "footer footer footer footer";
+    }
+
+    .items{
+        border: 2px solid red ;
+        height: 50px;
+        /* width:50px; */
+    }
+
+    .item-1{
+        grid-area:nav;
+    }
+
+    .item-7{
+        grid-area: footer;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="items item-1">item-1</div>
+        <div class="items item-2">item-2</div>
+        <div class="items item-3">item-3</div>
+        <div class="items item-4">item-4</div>
+        <div class="items item-5">item-5</div>
+        <div class="items item-6">item-6</div>
+        <div class="items item-7">item-7</div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+different ways to combine CSS selectors :
+
+1. Group :
+d    Group : apply to both selector.
+        selector,selector{
+            color: blue;
+        }   
+
+2. Child :
+    Child : applies to direct child on the left side
+        selector> selector {
+            color : fire;
+            
+        }

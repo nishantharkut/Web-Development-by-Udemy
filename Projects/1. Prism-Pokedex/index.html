@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prism-Dex</title>
+    <link rel="icon" type="image/x-icon" href="./assets/diamond 1.png">      
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-links">
+          <li><a href="#">Pokemon</a></li>
+          <li><a href="#">BeyBlade</a></li>
+          <li><a href="#">Idaten Jump!</a></li>
+        </ul>
+        <div class="logo">
+          <a href="#">PRIMYDEX</a> <!-- Replace with actual logo or gem image -->
+        </div>
+        <div class="nav-icons">
+          <a href="#"><img src="./assets/search icon.png" alt="Search Icon"></a>
+          <a href="#"><img src="./assets/shopping cart.png" alt="Cart Icon"></a>
+          <a href="#"><img src="./assets/user profile.png" alt="User Icon"></a>
+          <a href="#"><img src="./assets/hamburger.png" alt="Hamburger Icon"></a>
+        </div>
+      </nav>
+    
+      <script>
+        // JavaScript for hamburger menu toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+    
+        hamburger.addEventListener('click', () => {
+          navLinks.classList.toggle('active');
+        });
+      </script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    *{
+        padding:0;
+        margin:0;
+    }
+    .container{
+        border: 2px solid rgb(126, 59, 0);
+        display: grid;
+        padding: 5px;
+        /* This is how we can set the elements in the css grid using grid template */
+        grid-template-rows: 100px 100px 100px 100px;
+        grid-template-columns: 100px 100px 100px 100px 100px;
+    }
+
+    .items{
+        border:2px solid brown;
+        height: 100px;
+        width: 100px;
+        background-color: lightblue;
+
+    }
+
+
+</style>
+
+<body>
+    <div class="container">
+        <div class="items">item 1</div>
+        <div class="items">item 2</div>
+        <div class="items">item 3</div>
+        <div class="items">item 4</div>
+        <div class="items">item 5</div>
+    </div>
+</body>
+</html>

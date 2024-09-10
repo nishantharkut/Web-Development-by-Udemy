@@ -1,0 +1,44 @@
+The cascade is an algorithm that defines how user agents combine property values originating from different sources. The cascade defines the origin and layer that takes precedence when declarations in more than one origin, cascade layer, or @scope block set a value for a property on an element.
+
+There are 4 broad categories which we look at while we're determining css CASCADES.
+
+1. Position :
+    The First thing we look at the very top of the cascade is whether if a rule is at a higher or lower position in the CSS relative to other rules. in this code two rules are applied to the same thing. and setting the same property.
+        Code : 
+            li{
+                color: red;
+                color: blue;
+            }
+            li{
+                color: yellow;
+            }
+    The one which is lower replaces the other one.
+    /* 
+        The one which is at the lower position has the higher priority.
+    */
+
+
+2. Specificity
+    id > attribute > class > element
+
+    code : 
+    li{
+        color: red;
+    }
+    .first-class{}
+
+3. Type
+    3 different ways to apply CSS 
+        1. external : 
+        2. internal : in the html file using style tag
+        3. inline : tags
+    The order in which the CSS will be applied:
+        inline > internal > external
+    Reason : external CSS can be applied to various other html files 
+             internal css can be applies to a specific html file
+             inline css can only be applied to a spefici element in the html file under a specific tag.
+               
+
+4. Importance
+The "!Important" keyword makes the css rule the most important in the css file.
+use : handy way to know why the CSS is not working or when a person is trying to do something specific and you're trying to make sure the CSS rule gets applied.

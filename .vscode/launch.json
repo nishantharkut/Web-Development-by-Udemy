@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "http://127.0.0.1:3000/CSS/7.1+Combining+Selectors/7.1 Combining Selectors/css selector.html",
+            "request": "launch",
+            "url": "http://127.0.0.1:3000/CSS/7.1+Combining+Selectors/7.1 Combining Selectors/css selector.html"
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positioning</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .parent{
+            border: 2px solid brown;
+            padding: 20px;
+            margin: 34px;
+        }
+        .box{
+            border: 2px solid black;
+            height: 160px;
+            width: 160px;
+            margin: 2px;
+            padding: 10px;
+        }
+        .box1{
+            background-color: green;
+            z-index: 1;
+            position: relative;
+        }
+        .box2{
+            background-color: red;
+            position: relative;
+            top: -40px;
+            left:40px;
+        }
+        .box3{
+            background-color: blue;
+        }
+        .box4{
+            background-color: #000;
+        }
+    </style>
+</head>
+<body>
+    <h2>By default, the position is <strong>static</strong></h2>
+<div class="parent">
+    <div class="box box1"></div>
+    <div class="box box2"></div>
+    <div class="box box3"></div>
+    <div class="box box4"></div>
+</div>
+    
+</body> 
+</html>

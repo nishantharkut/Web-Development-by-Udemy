@@ -1,0 +1,6 @@
+1.  It's better to separate words with hyphens, rather than underscores: my-file.html vs. my_file.html.
+reason?
+basically because the computers are case sensitive.
+
+2. a -> href
+   img -> src 

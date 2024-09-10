@@ -1,0 +1,19 @@
+li{
+    color: green;
+    color: peru;}
+li{
+    color:blanchedalmond;
+    color:aquamarine ; 
+}
+li{
+    color:blueviolet;
+}
+.first-class{
+    color:red;
+}
+li[draggable]{
+    color:chocolate;
+}
+#first-id{
+    color:darkgreen;
+}

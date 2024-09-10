@@ -1,0 +1,35 @@
+/* Write your code here: */
+
+/* Group Selector */
+
+h1,h2{
+    color: blueviolet;
+}
+
+/* Child Selector */
+
+.box > .done {
+    color : firebrick;
+}
+
+
+/* Descendant --> GrandChild */ 
+
+.box li {
+    color : blue;
+}
+
+/* Chaining --> apply where ALL selectors are true. 
+    attribute.class#id
+*/
+
+li.done{
+    color:seagreen;
+}
+
+
+/* Combining combiners */
+ul p.done {
+    font-size: 0.5rem;
+}
+
